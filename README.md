@@ -31,7 +31,7 @@ Para usar esta base de datos, sigue estos pasos:
 
 1. **Clona el repositorio**:
    ```bash
-   git clone [URL del repositorio]
+   git clone https://github.com/Vendelshella/DB-Ligas.git
    ```
 
 2. **Importa los datos**:
