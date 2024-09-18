@@ -1,0 +1,2 @@
+# Tras imputar el número de pases, imputamos la precisión de pases en función
+# Imputación por KNN: Usa el método de K-Nearest Neighbors para imputar los valores faltantes. El algoritmo buscará los partidos más similares en términos de otras variables y usará la precisión de los pases de esos partidos para imputar el valor faltante.
