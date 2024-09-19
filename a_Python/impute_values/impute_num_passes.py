@@ -62,6 +62,6 @@ X_missing_visit = missing_data_visit[['Posesion Visit']]
 df.loc[missing_data_visit.index, 'Pases Visit'] = reg_visit.predict(X_missing_visit).round().astype(int)
 
 # Guardar el archivo CSV con los valores completados
-# df.to_csv("C:/Users/hecho/OneDrive/Escritorio/Snitch-IA/BBDD Ligas/Segunda/22-23/partidos22-23-imputado-pases.csv", index=False)
+df.to_csv("C:/Users/hecho/OneDrive/Escritorio/Snitch-IA/BBDD Ligas/Segunda/22-23/partidos22-23-imputado-pases.csv", index=False)
 
 print("Valores faltantes completados con regresión lineal y redondeados a enteros.")
