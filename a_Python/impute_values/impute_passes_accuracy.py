@@ -4,7 +4,7 @@ from sklearn.tree import DecisionTreeRegressor
 import matplotlib.pyplot as plt
 
 # Leer el archivo
-df = pd.read_csv('C:/Users/hecho/OneDrive/Escritorio/Snitch-IA/BBDD Ligas/Segunda/22-23/partidos22-23-imputado-pases.csv')
+df = pd.read_csv('C:/Users/hecho/OneDrive/Escritorio/Snitch-IA/BBDD Ligas/Segunda/23-24/partidos23-24-imputado-pases.csv')
 
 # Filas con datos complets
 df_complete = df.dropna(subset=['Precision de pases Local', 'Precision de pases Visit'])
@@ -52,7 +52,7 @@ df_imputed['Precision de pases Local'] = df_imputed['Precision de pases Local'].
 df_imputed['Precision de pases Visit'] = df_imputed['Precision de pases Visit'].round(2)
 
 # Crear archivo csv resultado
-df_imputed.to_csv('C:/Users/hecho/OneDrive/Escritorio/Snitch-IA/BBDD Ligas/Segunda/22-23/partidos22-23-imputado-prec-pases.csv', index=False)
+df_imputed.to_csv('C:/Users/hecho/OneDrive/Escritorio/Snitch-IA/BBDD Ligas/Segunda/23-24/partidos23-24-imputado-prec-pases.csv', index=False)
 
 # Histogramas de los valores completos e imputados
 plt.figure(figsize=(14,8))

@@ -6,7 +6,7 @@ import numpy as np
 # Si esto se verifica, los valores de los pases faltantes se imputarán basándose en esta relación lineal.
 
 # Cargar el archivo CSV
-data = pd.read_csv('C:/Users/hecho/OneDrive/Escritorio/Snitch-IA/BBDD Ligas/Segunda/22-23/partidos22-23-rellenado.csv')
+data = pd.read_csv('C:/Users/hecho/OneDrive/Escritorio/Snitch-IA/BBDD Ligas/Segunda/23-24/partidos23-24-rellenado.csv')
 
 df = pd.DataFrame(data)
 
